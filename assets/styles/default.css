@@ -239,7 +239,13 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
-    body:before {
+
+    .page-container {
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .page-container:before {
         content: "";
         display: block;
         position: fixed;
@@ -253,11 +259,6 @@ footer {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-      }
-
-    .page-container {
-        padding: 0 0;
-        width: 100%;
     }
 
     header {
